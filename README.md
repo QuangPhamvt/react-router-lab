@@ -18,3 +18,10 @@
   - Khả năng bảo mật kém khi so với MVC, những trang web xây bằng Laravel, .NET, Spring ,...
   - Sử dụng Javascript là chính, nên ko thực sự phù hợp vói các browser cũ (2-3%) dùng es5
   - Xử lý router riêng, ko giống như browser truyền thống
+
+## Sử dụng react router cơ bản
+
+- Setup
+- Routes/Route
+- Layout, element
+- hooks
