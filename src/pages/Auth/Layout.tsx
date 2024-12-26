@@ -1,11 +1,11 @@
-import { FC } from 'react'
-import { Outlet } from 'react-router'
+import { FC, ReactNode } from 'react'
 
-const AuthLayout: FC = () => {
+const AuthLayout: FC<{ children: ReactNode }> = ({ children }) => {
   return (
     <div>
       <h1>React router</h1>
-      <Outlet />
+      <p>Auth layout</p>
+      {children}
     </div>
   )
 }

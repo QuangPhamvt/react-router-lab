@@ -1,7 +1,7 @@
-import { FC } from 'react'
-import { NavLink, Outlet } from 'react-router'
+import { FC, ReactNode } from 'react'
+import { NavLink } from 'react-router'
 
-const MainLayout: FC = () => {
+const MainLayout: FC<{ children: ReactNode }> = ({ children }) => {
   return (
     <div>
       <h1>React router</h1>
@@ -10,8 +10,9 @@ const MainLayout: FC = () => {
         <NavLink to="/about">About</NavLink>
         <NavLink to="/projects">Projects</NavLink>
         <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/login">Login</NavLink>
       </nav>
-      <Outlet />
+      {children}
     </div>
   )
 }

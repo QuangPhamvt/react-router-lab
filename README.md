@@ -25,3 +25,8 @@
 - Routes/Route
 - Layout, element
 - hooks
+
+## Layout va Sign In
+
+- React hook form
+- Private Route
