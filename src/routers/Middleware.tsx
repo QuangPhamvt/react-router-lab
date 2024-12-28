@@ -15,12 +15,12 @@ const Middleware: FC<IProps> = (props) => {
   if (isAuthen && !isLogin) {
     return Layout ? (
       <Layout>
-        <div className="flex flex-col gap-y-2 pl-4 mt-12">
+        <div className="flex flex-col pl-4 mt-12 gap-y-2">
           <div>Not Authorized</div>
         </div>
       </Layout>
     ) : (
-      <div className="flex flex-col gap-y-2 pl-4 mt-12">
+      <div className="flex flex-col pl-4 mt-12 gap-y-2">
         <div>Not Authorized</div>
       </div>
     )
