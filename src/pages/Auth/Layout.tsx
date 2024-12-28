@@ -3,7 +3,12 @@ import { Outlet } from 'react-router'
 
 const AuthLayout: FC = () => {
   return (
-    <div>
+    <div
+      style={{
+        padding: '20px',
+        backgroundColor: 'red',
+      }}
+    >
       <h1>React router</h1>
       <Outlet />
     </div>

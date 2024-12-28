@@ -1,7 +1,15 @@
 import { FC } from 'react'
 
 const Login: FC = () => {
-  return <div>Login</div>
+  return (
+    <div
+      style={{
+        backgroundColor: 'blue',
+      }}
+    >
+      Login
+    </div>
+  )
 }
 
 export default Login

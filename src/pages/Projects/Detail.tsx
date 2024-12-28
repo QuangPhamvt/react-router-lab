@@ -5,7 +5,7 @@ const ProjectDetail: FC = () => {
   const { pid } = useParams()
   const navigate = useNavigate()
   return (
-    <div className="flex flex-col gap-y-2 pl-4 mt-12">
+    <div className="flex flex-col pl-4 mt-12 gap-y-2">
       <div>Project Detail {pid}</div>
       <button
         onClick={(e) => {
